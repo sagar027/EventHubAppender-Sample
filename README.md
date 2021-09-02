@@ -1,7 +1,7 @@
 # EventHub-Appender-Java-Sample
 
 This sample demonstrates the use of EventHubAppender for streaming/sending log4j2 logs to Azure Event Hub.
-The EventHubAppender extension (Logj plugin) code can be found at https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/eventhubs/microsoft-azure-eventhubs-extensions
+The EventHubAppender extension (Log4j plugin) code can be found at https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/eventhubs/microsoft-azure-eventhubs-extensions
 
 Note : The above extension depends on [older version of Azure Event Hubs library](https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/eventhubs/microsoft-azure-eventhubs).
 

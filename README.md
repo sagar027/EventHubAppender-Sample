@@ -8,7 +8,7 @@ Note : The above extension depends on [older version of Azure Event Hubs library
 Steps to run the project :
   1. Clone the repository.
   2. Update the value of 'eventHubConnectionString' in src/main/resources/log4j2.xml file. (This is the config file)
-  3. Update the value of '<classpathPrefix>' element in the pom.xml file of the project
+  3. Update the value of 'classpathPrefix' element in the pom.xml file of the project
   4. Run 'mvn clean'
   5. Run 'mvn package'
   6. Run 'java -cp target/my-app-1.0-SNAPSHOT.jar:<classpath-to-jar-dependencies>/*:  com.eventhubappendersample.app.App'
